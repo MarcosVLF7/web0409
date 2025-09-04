@@ -1,0 +1,138 @@
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+/*coloque o menu fixo na parte superior da página, onde os itens do menu estão um do lado do outro*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #ff6f00 0%, #ffca28 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 16px 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #000;
+}
+main {
+    padding: 80px 20px 20px; /* Espaço para o menu fixo */
+}
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    border-radius: 8px;
+}
+section h1 {
+    margin-top: 0;
+}
+section p {
+    line-height: 1.6;
+    color: #333;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+section a {
+    color: #ff6f00;
+    text-decoration: none;
+}
+section a:hover {
+    text-decoration: underline;
+}
+body {
+    height: 100vh;
+    margin: 0;
+}
+/*coloque o menu fixo na parte superior da página, onde os itens do menu estão um do lado do outro*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #ff6f00 0%, #ffca28 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 16px 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #000;
+}
+main {
+    padding: 80px 20px 20px; /* Espaço para o menu fixo */
+}
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    border-radius: 8px;
+}
+section h1 {
+    margin-top: 0;
+}
+section p {
+    line-height: 1.6;
+    color: #333;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+section a {
+    color: #ff6f00;
+    text-decoration: none;
+}
+section a:hover {
+    text-decoration: underline;
+}
+body {
+    height: 100vh;
+    margin: 0;
+}
+
